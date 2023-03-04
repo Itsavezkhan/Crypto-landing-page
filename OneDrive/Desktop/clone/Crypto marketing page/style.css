@@ -1,0 +1,89 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+body{
+    background-image: url("./assets/bg.png");
+    background-size:100% 100%;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-attachment:fixed; 
+    
+}
+.list{
+    color: white;
+    display: flex;
+    gap: 5vw;
+    margin-left: 5.5vw;
+    list-style: none;
+    font-family: poppins;
+}
+.navbar img{
+    width: 125px;
+    margin-left: 5vw;
+    margin-top: 1vh;
+}
+ul:first-child::before{
+    content:""; 
+    border:1px solid #e2e2e2;
+   
+}
+ul li:first-child::after{
+    content:" ";
+}
+.button-small{
+    margin-left: 22vw;
+    width: 6vw;
+    height: 4vh;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: poppins;
+}
+.hero{
+    height: 40vh;
+    width: 80vw;
+    margin-left: 300px;
+    
+}
+h1.hero-heading{
+    font-size: 77px;
+    color: white;
+}
+.hero h1{
+    margin-left: 100px;
+    margin-top: 36px;
+    font-family: montserrat;
+}
+.hero-description{
+    color: white;
+    font-family: poppins;
+    font-size: 30px;
+    margin-left: 160px;
+    margin-top: 20px;
+}
+.button-large{
+    width: 390px;
+    height: 55px;
+    margin-left: 300px;
+    border-radius: 10px;
+    margin-top: 50px;
+    font-family: poppins;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    cursor: pointer;
+    
+    
+}
